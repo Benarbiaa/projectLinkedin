@@ -58,7 +58,7 @@ public class App extends Application {
     	Account acc = new Account("benarbia@gmail.com", "emiremir", emp);
         UserDAO.addAccount(acc);
         System.out.println(UserDAO.getEmails());
-        System.out.println("changes 2");
+        System.out.println("changes 3");
         
     }
 
