@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="885.0" maxWidth="1297.0" minHeight="885.0" minWidth="1297.0" prefHeight="885.0" prefWidth="1297.0" style="-fx-background-color: F1FAEE;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.linkedIn.controllers.Choice_Login_Controller">
+   <children>
+      <Text fill="#023047" layoutX="1246.0" layoutY="851.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In" textAlignment="CENTER">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <Text fill="#fb8500" layoutX="1150.0" layoutY="851.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Linked" textAlignment="CENTER" wrappingWidth="96.13671875">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <Line endX="100.0" layoutX="893.0" layoutY="287.0" rotate="-90.0" startX="-100.0" stroke="#ffb703" strokeWidth="2.0" />
+      <Button fx:id="btnSignInCompany" alignment="CENTER" contentDisplay="CENTER" layoutX="586.0" layoutY="664.0" mnemonicParsing="false" onAction="#switch_fill_company" prefHeight="66.0" prefWidth="212.0" style="-fx-background-color: #006DFF; -fx-background-radius: 100; -fx-border-radius: 50;" text="Company" textAlignment="CENTER" textFill="#f1faee" textOverrun="LEADING_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="Arial" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSingInEmploye" layoutX="988.0" layoutY="664.0" mnemonicParsing="false" onAction="#switch_fill_user" prefHeight="66.0" prefWidth="212.0" style="-fx-background-color: #006DFF; -fx-background-radius: 100; -fx-border-radius: 50;" text="Employee" textAlignment="CENTER" textFill="#f1faee" textOverrun="LEADING_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="Arial" size="30.0" />
+         </font>
+      </Button>
+      <Line endX="200.0" endY="65.0" layoutX="893.0" layoutY="512.0" rotate="-90.0" smooth="false" startX="-200.0" startY="65.0" stroke="#ffb703" strokeWidth="2.0" />
+      <ImageView fitHeight="224.0" fitWidth="212.0" layoutX="992.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@emplyee.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="885.0" layoutX="-1.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.05" width="485.0">
+         <fill>
+            <LinearGradient endX="0.861904761904762" endY="0.5857142857142857" startX="0.18095238095238098" startY="0.5904761904761905">
+               <stops>
+                  <Stop color="#219ebc" />
+                  <Stop color="#219ebc" offset="0.007662835249042145" />
+                  <Stop color="#78c1de" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill></Rectangle>
+      <Text layoutX="53.0" layoutY="381.0" strokeType="OUTSIDE" strokeWidth="0.0" text="“LinkedIn is an application dedicated to facilitating job-finding for employees and job-offering for companies." textAlignment="CENTER" wrappingWidth="378.0">
+         <font>
+            <Font name="Arial" size="34.0" />
+         </font>
+      </Text>
+      <Text layoutX="644.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign-in with your account type" textAlignment="CENTER" wrappingWidth="500.13671875">
+         <font>
+            <Font name="Arial Bold" size="34.0" />
+         </font>
+      </Text>
+      <Text layoutX="551.0" layoutY="505.0" strokeType="OUTSIDE" strokeWidth="0.0" text="signing in as a company offers you the possibility to create job offers as well as internships" textAlignment="CENTER" wrappingWidth="284.0">
+         <font>
+            <Font name="Arial" size="25.0" />
+         </font></Text>
+      <ImageView fitHeight="233.0" fitWidth="244.0" layoutX="578.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@company.png" />
+         </image></ImageView>
+      <Text layoutX="949.0" layoutY="491.0" strokeType="OUTSIDE" strokeWidth="0.0" text="signing in as an employee offers you the opprotunity to research companies and reach out to the hiring community" textAlignment="CENTER" wrappingWidth="297.0">
+         <font>
+            <Font name="Arial" size="25.0" />
+         </font>
+      </Text>
+   </children>
+   <padding>
+      <Insets left="20.0" top="10.0" />
+   </padding>
+</AnchorPane>

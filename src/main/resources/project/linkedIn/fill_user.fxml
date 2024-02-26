@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" maxHeight="806.0" maxWidth="1100.0" minHeight="800.0" minWidth="1098.0" prefHeight="806.0" prefWidth="1098.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.linkedIn.controllers.Fill_users_controller">
+   <children>
+    <AnchorPane layoutX="300.0" maxHeight="806.0" maxWidth="1100.0" minHeight="778.0" minWidth="700.0" prefHeight="806.0" prefWidth="1094.0" style="-fx-background-color: #F1FAEE;">
+         <children>
+            <DatePicker fx:id="date_text" layoutX="101.0" layoutY="469.0" prefHeight="30.0" prefWidth="200.0" />
+            <Text fill="#023047" layoutX="100.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First name*" wrappingWidth="143.13671875">
+               <font>
+                  <Font name="Corbel" size="20.0" />
+               </font>
+            </Text>
+            <Line endX="45.0" layoutX="500.0" layoutY="257.0" startX="-100.0" stroke="#023047" />
+            <TextField fx:id="adresse_text" layoutX="700.0" layoutY="360.0" prefHeight="36.0" prefWidth="146.0" promptText="add your address here" style="-fx-background-color: 78C1DE;" />
+            <TextField layoutX="400.0" layoutY="560.0" prefHeight="36.0" prefWidth="163.0" promptText="add your competences here" style="-fx-background-color: 78C1DE;">
+               <font>
+                  <Font name="Corbel" size="15.0" />
+               </font>
+            </TextField>
+            <Line endX="45.0" layoutX="800.0" layoutY="400.0" startX="-100.0" stroke="#023047" />
+            <Line endX="100.0" layoutX="200.0" layoutY="500.0" startX="-100.0" stroke="#023047" />
+            <Line endX="60.0" layoutX="500.0" layoutY="600.0" startX="-100.0" stroke="#023047" />
+            <TextField fx:id="firstname_text" layoutX="100.0" layoutY="360.0" prefHeight="36.0" prefWidth="146.0" promptText="add your lfirstname here" style="-fx-background-color: 78C1DE;" />
+            <Text fill="#023047" layoutX="100.0" layoutY="450.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date of birth">
+               <font>
+                  <Font name="Corbel" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="#023047" layoutX="400.0" layoutY="550.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Competences">
+               <font>
+                  <Font name="Corbel" size="20.0" />
+               </font>
+            </Text>
+            <TextField layoutX="100.0" layoutY="560.0" prefHeight="36.0" prefWidth="159.0" promptText="add your experiences here" style="-fx-background-color: 78C1DE;">
+               <font>
+                  <Font name="Corbel" size="15.0" />
+               </font>
+            </TextField>
+            <Line endX="58.0" layoutX="200.0" layoutY="600.0" startX="-100.0" stroke="#023047" />
+            <Text fill="#023047" layoutX="700.0" layoutY="550.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Company">
+               <font>
+                  <Font name="Corbel" size="20.0" />
+               </font>
+            </Text>
+            <TextField layoutX="700.0" layoutY="560.0" prefHeight="36.0" prefWidth="171.0" promptText="add your Comapny here" style="-fx-background-color: 78C1DE;">
+               <font>
+                  <Font name="Corbel" size="15.0" />
+               </font>
+            </TextField>
+            <Line endX="70.0" layoutX="800.0" layoutY="600.0" startX="-100.0" stroke="#023047" />
+            <Text fill="#023047" layoutX="400.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail *">
+               <font>
+                  <Font name="Corbel" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#023047" layoutX="400.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password*">
+               <font>
+                  <Font name="Corbel" size="20.0" />
+               </font>
+            </Text>
+            <TextField fx:id="mail_text" layoutX="400.0" layoutY="130.0" prefHeight="28.0" prefWidth="146.0" promptText="example@gmail.com" style="-fx-background-color: 78C1DE;" />
+            <Line endX="45.0" layoutX="500.0" layoutY="158.0" startX="-100.0" stroke="#023047" strokeLineJoin="ROUND" />
+            <Line endX="45.0" layoutX="200.0" layoutY="400.0" startX="-100.0" stroke="#023047" />
+            <RadioButton fx:id="gender_male_text" layoutX="400.0" layoutY="480.0" mnemonicParsing="false" text="Male" textFill="#023047">
+               <toggleGroup>
+                  <ToggleGroup fx:id="gender" />
+               </toggleGroup>
+               <font>
+                  <Font name="Corbel" size="15.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="gender_female_text" layoutX="500.0" layoutY="480.0" mnemonicParsing="false" text="Female" textFill="#023047" toggleGroup="$gender">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </RadioButton>
+            <PasswordField fx:id="pass1_text" layoutX="400.0" layoutY="230.0" prefHeight="26.0" prefWidth="146.0" />
+            <Text fill="#023047" layoutX="400.0" layoutY="465.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender">
+               <font>
+                  <Font name="Corbel" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="#023047" layoutX="700.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Verify Password*">
+               <font>
+                  <Font name="Corbel" size="18.0" />
+               </font>
+            </Text>
+            <PasswordField fx:id="pass2_text" layoutX="700.0" layoutY="230.0" prefHeight="29.0" prefWidth="146.0" />
+            <Line endX="44.0" layoutX="800.0" layoutY="258.0" startX="-100.0" stroke="#023047" />
+            <Button fx:id="btn_confirm" layoutX="867.0" layoutY="702.0" mnemonicParsing="false" onAction="#confirmer" prefHeight="34.0" prefWidth="121.0" style="-fx-background-color: #fb8500; -fx-border-radius: 50; -fx-background-radius: 100;" text="Sign-up" textFill="#f1faee">
+               <font>
+                  <Font name="Corbel" size="20.0" />
+               </font>
+            </Button>
+            <Text fill="#fb8500" layoutX="400.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign-up" textAlignment="CENTER" wrappingWidth="226.13671875">
+               <font>
+                  <Font name="Corbel Bold" size="33.0" />
+               </font>
+            </Text>
+            <Text fill="#023047" layoutX="700.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address*">
+               <font>
+                  <Font name="Corbel" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#023047" layoutX="100.0" layoutY="550.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Experiences">
+               <font>
+                  <Font name="Corbel" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="#f80000" layoutX="400.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Must cointain at least 1 lower case 1 upper case 1 digit and 1 symbol." wrappingWidth="146.0" />
+            <Text fx:id="pass_fail" fill="#f80000" layoutX="700.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="152.0" />
+            <Text fill="#023047" layoutX="700.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone number*">
+               <font>
+                  <Font name="Corbel" size="18.0" />
+               </font>
+            </Text>
+            <TextField fx:id="phone_text" layoutX="700.0" layoutY="130.0" prefHeight="28.0" prefWidth="152.0" promptText="example@gmail.com" style="-fx-background-color: 78C1DE;" />
+            <Line endX="45.0" layoutX="800.0" layoutY="158.0" startX="-100.0" stroke="#023047" strokeLineJoin="ROUND" />
+            <Text fill="#023047" layoutX="400.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last name*" wrappingWidth="143.13671875">
+               <font>
+                  <Font name="Corbel" size="20.0" />
+               </font>
+            </Text>
+            <TextField fx:id="lastname_text" layoutX="400.0" layoutY="360.0" prefHeight="36.0" prefWidth="146.0" promptText="add your lfirstname here" style="-fx-background-color: 78C1DE;" />
+            <Line endX="45.0" layoutX="500.0" layoutY="400.0" startX="-100.0" stroke="#023047" />
+            <ImageView fitHeight="182.0" fitWidth="200.0" layoutX="99.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@select_img.png" />
+               </image></ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
