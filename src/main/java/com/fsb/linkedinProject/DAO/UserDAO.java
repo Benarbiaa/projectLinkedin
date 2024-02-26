@@ -116,4 +116,8 @@ public class UserDAO {
 		    ex.printStackTrace();
 		}
 	}
+
+	public static void addCompetence(int id){
+
+	}
 }
