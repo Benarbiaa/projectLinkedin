@@ -47,8 +47,8 @@ public class App extends Application {
 
 
     public static void main(String[] args) throws SQLException, IOException {
-        /*launch();
-        FileInputStream fis = null;
+        launch();
+        /*FileInputStream fis = null;
     	Company c = new Company(1, "emir", LocalDate.of(2003, 12, 14), "company" , 93432312, "zone urbain", null, "actif", null, "info", "very good company",null);
     	Account acc1 = new Account("facebook@gmail.com","deudeded",c);
     	UserDAO.addAccount(acc1);
