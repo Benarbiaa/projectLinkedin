@@ -1,0 +1,36 @@
+
+#profile_image{
+    -fx-border: 3px;
+    -fx-border-color: brown;
+}
+.left-list .label:hover{
+    -fx-text-fill: orange;
+    -fx-cursor: hand;
+    -fx-font-scale: 1.1;
+    -fx-border-width: 0px 0px 0px 3px;
+    -fx-border-color: orange;
+    -fx-font-size: 22px;
+    -fx-alignment: center;
+
+}
+.main-icons:hover{
+    -fx-background-color: #219ebc;
+    -fx-border-radius: 5px;
+    -fx-border-width: 0px 0px 4px 0px;
+    -fx-border-color: #fb8500;
+    -fx-cursor: hand;
+}
+
+.Image-view:hover{
+    -fx-border-color: red;
+    -fx-border-width: 4;
+}
+
+.tool-bar .button{
+    -fx-border-color: blue;
+    -fx-border-width: 2px;
+    -fx-background-radius: 10px;
+}
+
+
+

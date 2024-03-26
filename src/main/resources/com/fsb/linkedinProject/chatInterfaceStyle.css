@@ -1,0 +1,47 @@
+
+#Chat_list .list-cell{
+    -fx-background-color:  #F1FAEE;
+    -fx-fill-height: true;
+    -fx-fill-width: true;
+    -fx-border-width: 1px;
+    -fx-border-color: #fb8500;
+
+}
+
+#Chat_list{
+    -fx-border-color: #fb8500;
+    -fx-border-width: 2px;
+    -fx-padding: 0px;
+    -fx-spacing: 0px;
+}
+
+
+.conversation{
+    -fx-background-color: #F1FAEE;
+    -fx-alignment: center-left;
+    -fx-marging: 10px;
+    -fx-spacing: 10px;
+    -fx-padding: 5px;
+}
+
+
+
+.conversation .circle{
+    -fx-start-margin: 0px 5px 0px 10px;
+    -fx-end-margin: 0px 5px 0px 10px;
+}
+
+.message{
+    -fx-spacing: 5px;
+}
+
+#conversation_header{
+    -fx-alignment: center-left;
+    -fx-spacing: 10px;
+    -fx-padding: 10;
+}
+#nomEtPrenom{
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
